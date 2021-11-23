@@ -87,7 +87,7 @@ const Validate = () =>{
         setErrorMsg(password, 'Password cannot be blank');
     }
     else if(newPassword.length<8){
-        setErrorMsg(password, 'Password must be of atleast 8 character');
+        setErrorMsg(password, 'Enter atleast 8 character');
     }
     else{
         setSuccessMsg(password);
@@ -98,11 +98,10 @@ const Validate = () =>{
         setErrorMsg(cnpassword, 'Confirm password cannot be blank');
     }
     else if(newPassword.length<8){
-        setErrorMsg(cnpassword, 'Confirm password must be of atleast 8 character');
+        setErrorMsg(cnpassword, 'Enter atleast 8 character');
     }
     else if(newCnpassword != newPassword){ 
-        setErrorMsg(cnpassword, 'Password are not matching');
-    
+        setErrorMsg(cnpassword, 'Password is not matching');
     }
     else{
         setSuccessMsg(cnpassword);

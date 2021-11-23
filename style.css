@@ -6,41 +6,6 @@
     font-family: 'Popins', 'Allura', sans-serif;
   }
 
-  /* .navbar {
-    margin-top: 0;
-    padding: 12px 0;
-    background: linear-gradient(-30deg, #03a9f4 0%, #034aa7 50%, #242323 50%, #607d8b 100%);
-    filter: hue-rotate(120deg);
-    animation: animate 10s linear infinite;
-  }
-
-  .navbar .menu li {
-    list-style: none;
-    display: inline-block;
-  }
-  .max-width {
-    max-width: 1300px;
-    padding: 0;
-    margin: auto;
-  } */
-
-
-  button {
-    width: 100px;
-    padding: 6px;
-    border-radius: 6px;
-    font-size: 16px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  button:hover {
-    text-decoration: underline;
-    font-size: 17px;
-  }
-
   section {
     display: flex;
     justify-content: center;
@@ -247,6 +212,11 @@ section h1 span{
   .box{
     width: 350px;
     margin: 10%;
+  }
+}
+@media (max-width:440px){
+  .box{
+    margin: 7%;
   }
 }
 @media (max-width:380px){
